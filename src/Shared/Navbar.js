@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Children } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/globetech logo.png";
 
-const Navbar = () => {
+const Navbar = ({ children }) => {
   const menuItems = (
     <>
       <li>
@@ -58,7 +58,8 @@ const Navbar = () => {
             </div>
           </div>
           {/* <!-- Page content here --> */}
-          Content
+
+          {children}
         </div>
         <div class="drawer-side">
           <label for="my-drawer-3" class="drawer-overlay"></label>

@@ -9,7 +9,7 @@ import Services from "./Pages/Services/Services";
 
 function App() {
   return (
-    <div className="bg-[#040444]">
+    <div className="bg-[#040444] pb-40">
       <Navbar>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>

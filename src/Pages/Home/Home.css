@@ -1,0 +1,55 @@
+/* .border-color{
+    border: solid;
+    background-color: linear-gradient(to right, darkblue, darkorchid) 1;
+    border-radius: 50%;
+    
+} */
+
+.sub-part-1,
+.sub-part-2,
+.sub-part-3,
+.sub-part-4,
+.sub-part-5,
+.sub-part-6{
+    transition: .3s linear
+}
+.galaxy:hover .sub-part-1{
+
+    transform: translateY(700%)
+}
+ .galaxy:hover .sub-part-2{
+    transform: translateX(850%);
+}
+.galaxy:hover .sub-part-3{
+    transform: translateY(-300px)
+}
+.galaxy:hover .sub-part-4{
+   
+    transform: translateY(310px)
+}
+.galaxy:hover .sub-part-5{
+
+    transform: translateY(-400px)
+}
+.galaxy:hover .sub-part-6{
+    transform: translate(-200px)
+}
+
+/* .sub-part-1:hover,.galaxy:hover{
+    transform: translate(200px)
+}
+.sub-part-2:hover,.galaxy:hover{
+    transform: translate(200px)
+}
+.sub-part-3:hover,.galaxy:hover{
+    transform: translate(200px)
+}
+.sub-part-4:hover,.galaxy:hover{
+    transform: translate(200px)
+}
+.sub-part-5:hover,.galaxy:hover{
+    transform: translate(50px)
+}
+.sub-part-6:hover,.galaxy:hover{
+    transform: translate(200px)
+} */
